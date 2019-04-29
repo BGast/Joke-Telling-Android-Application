@@ -1,0 +1,30 @@
+Apr 29, 2019 4:33:10 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Apr 29, 2019 4:33:10 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2019-04-29 16:33:10.376:INFO::main: Logging initialized @429ms to org.eclipse.jetty.util.log.StdErrLog
+2019-04-29 16:33:10.414:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Apr 29, 2019 11:33:10 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\ud867-master\FinalProject\backend) is not equal to your 
+web application root (C:\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2019-04-29 16:33:10.673:INFO:oejs.Server:main: jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_152-release-1343-b01
+2019-04-29 16:33:11.237:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@52f27fbd{/,file:///C:/ud867-master/FinalProject/backend/build/exploded-backend/,AVAILABLE}{C:\ud867-master\FinalProject\backend\build\exploded-backend}
+2019-04-29 16:33:11.237:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2019-04-29 16:33:11.238:INFO:oejs.session:main: node0 Scavenging disabled
+2019-04-29 16:33:11.254:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@7bd7d6d6{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-04-29 16:33:11.255:INFO:oejs.Server:main: Started @1308ms
+Apr 29, 2019 11:33:11 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Apr 29, 2019 11:33:11 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Apr 29, 2019 4:33:11 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+2019-04-29 16:35:48.560:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@7bd7d6d6{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-04-29 16:35:48.564:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@52f27fbd{/,file:///C:/ud867-master/FinalProject/backend/build/exploded-backend/,UNAVAILABLE}{C:\ud867-master\FinalProject\backend\build\exploded-backend}
+Apr 29, 2019 4:35:48 PM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
+Apr 29, 2019 4:35:48 PM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+INFO: scheduler shutting down.
