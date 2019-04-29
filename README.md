@@ -1,3 +1,11 @@
+# Project completed for Udacity Android Development Nanodegree
+
+<img src="JokeTellerSnapshots/Screenshot_1556580897.png" width="400"> <img src="JokeTellerSnapshots/Screenshot_1556580904.png" width="400">
+
+The Free version contains an ad while the paid version does not. 
+
+<img src="JokeTellerSnapshots/Screenshot_1556580937.png" width="400">
+
 # Gradle for Android and Java Final Project
 
 In this project, you will create an app with multiple flavors that uses
@@ -158,11 +166,3 @@ To tie it all together, create a Gradle task that:
 ### Required Behavior
 
 * App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
-
-### Optional Components
-
-Once you have a functioning project, consider adding more features to test your Gradle and Android skills. Here are a few suggestions:
-
-* Make the free app variant display interstitial ads between the main activity and the joke-displaying activity.
-* Have the app display a loading indicator while the joke is being fetched from the server.
-* Write a Gradle task that starts the GCE dev server, runs all the Android tests, and shuts down the dev server.
